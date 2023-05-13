@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Detection</title>
+</head>
+<body>
+  <form action="/perform_emotion_detection" method="post">
+      <label>Type your text here</label><br>
+      <textarea name="emotion_text"></textarea><br>
+      <input type="submit" value="Perform Emotion Detection">
+  </form>
+
+  <h3>{{response}}</h3>
+
+</body>
+</html>

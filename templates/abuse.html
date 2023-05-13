@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abuse Language Detection</title>
+</head>
+
+<body>
+  <form action="/perform_abuse_detection" method="post">
+      <label>Type your text here</label><br>
+      <textarea name="abuse_text"></textarea><br>
+      <input type="submit" value="Perform Abuse Language Detection">
+  </form>
+
+    <h3>{{response}}</h3>
+
+</body>
+</html>
